@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    width: 16rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.fields{
+    display: inherit;
+    flex-direction: inherit;
+    gap: .5rem;
+}
+
+.choice {
+    font-weight: 400;
+    margin-top: 5px;
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+}
+
+.link-to {
+    color: #a0a0a0;
+    transition: color .2s;
+}
+
+.link-to:hover {
+    color: rgb(134, 134, 243);
+}

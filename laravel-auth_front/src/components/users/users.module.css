@@ -1,0 +1,83 @@
+.left-section {
+    grid-area: left;
+    padding: 20px;
+}
+
+.right-section {
+    grid-area: right;
+    padding: 20px 20px 20px 0;
+}
+
+/* User */
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text span:first-child,
+.text span:first-child::after {
+    content: " ♦ ";
+    color: gray;
+}
+
+.initials {
+    padding-bottom: 5px;
+}
+
+.initials span:first-child {
+    color: white;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead tr {
+    background-color: #0e0e0e;
+}
+
+.thead,
+.tbody:not(:last-child) {
+    border-bottom: 1px solid #dadada47;
+}
+
+.thead th:not(:last-child),
+.tbody td:not(:last-child) {
+    border-right: 1px solid #dadada47;
+}
+
+.thead th,
+.tbody td {
+    padding: 5px;
+}
+
+tbody tr:hover {
+    background-color: #181818;
+}
+
+
+.title {
+    max-width: 200px;
+    min-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.edit-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.date-picker:invalid::-webkit-datetime-edit {
+    color: gray;
+}
+
+.date-picker::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
+

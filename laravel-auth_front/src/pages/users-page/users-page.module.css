@@ -1,0 +1,18 @@
+.wrapper {
+    margin: 0 auto;
+}
+
+.container {
+    width: 65rem;
+    min-height: 42rem;
+    background-color: #101114;
+    margin: 5rem 0;
+    border-radius: 25px;
+}
+
+.content {
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 30% 70%;
+}
+

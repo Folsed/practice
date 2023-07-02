@@ -1,0 +1,10 @@
+.home-button {
+    position: absolute;
+    color: #a0a0a0;
+    transition: color .2s;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    color: white;
+}
